@@ -1,0 +1,68 @@
+
+/*管理样式初始化(去掉原始样式)*/
+
+/*块级元素*/
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,dl,dt,dd,br {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	font-size: 16px;
+	font-family: "微软雅黑"
+}
+
+body {
+	background-color: #f2f2f2;
+}
+
+/*行内元素*/
+a {
+	text-decoration: none;
+}
+
+/* 鼠标放上成小手 */
+a:hover {
+	cursor: pointer;
+	/* border-bottom: 1px solid #999999; */
+}
+
+
+/*行内块元素*/
+img input textarea {
+	border: none;
+	outline-style: none;
+	padding: 0;
+}
+
+/*清除浮动*/
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+	/*下面的内容可写可不写*/
+	height: 0;
+	line-height: 0
+	visibility hidden;
+}
+
+.clearfix::after{
+	zoom: 1;
+}
+
+/*版心*/
+
+.w {
+	width: 1260px;
+	margin: 0 auto;
+}
+
+/* 左浮动 */
+.left {
+	float: left;
+}
+
+/* 右浮动 */
+.right {
+	float: right;
+}
+
+

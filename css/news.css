@@ -1,0 +1,318 @@
+body {
+    width: 100%;
+    height: 100%;
+    background: #0f1314;
+}
+
+body .beijingtu {
+    display: block;
+    width: 100%;
+    height: 380px;
+    background: url('../images/imgzixun/zhuti.jpg') no-repeat top center;
+}
+
+body .zhuti {
+    width: 80%;
+    padding-bottom: 100px;
+    float: left;
+}
+
+body .zhuti .daohang {
+    background: #ededed;
+    padding: 20px;
+    overflow: hidden;
+}
+
+body .zhuti .daohang span:nth-child(1) {
+    color: #60abea;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+body .zhuti .daohang a:nth-child(2) {
+    color: #000;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+body .zhuti .daohang span:nth-child(3) {
+    color: #000;
+    margin-right: 10px;
+}
+
+body .zhuti .neirong {
+    position: relative;
+    background: #fff;
+    overflow: hidden;
+}
+
+body .zhuti .neirong span {
+    width: 415px;
+    height: 28px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+}
+
+body .zhuti .neirong .TI8 {
+    position: absolute;
+    left: 0;
+    bottom: 70px;
+    padding-left: 60px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+body .zhuti .neirong .tuanzhanzhiwang {
+    position: absolute;
+    right: 0;
+    bottom: 70px;
+    padding: 0 40px;
+    overflow: hidden;
+}
+
+body .zhuti .neirong span:hover {
+    color: #60abea;
+    cursor: pointer;
+}
+
+body .zhuti .neirong .one {
+    padding: 40px 0 40px 0;
+    width: 415px;
+    height: 244px;
+    margin-left: 40px;
+    float: left;
+}
+
+body .zhuti .neirong .two {
+    padding: 40px 0 40px 0;
+    width: 415px;
+    height: 244px;
+    margin-left: 40px;
+    float: left;
+}
+
+body .zhuti .fudaohang {
+    background: #fff;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+body .zhuti .fudaohang ul {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+body .zhuti .fudaohang ul li {
+    width: 25%;
+    border: 1px solid #000;
+    float: left;
+    color: #000;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    box-sizing: border-box;
+}
+
+body .zhuti .fudaohang ul li:hover {
+    color: #60abea;
+    border-color: #60abea;
+    cursor: pointer;
+}
+
+body .zhuti .zhongbu {
+    display: block;
+}
+
+body .zhuti .zhongbu .gonggao {
+    width: 100%;
+    padding: 20px 40px 20px 40px;
+    box-sizing: border-box;
+    background: #fff;
+    overflow: hidden;
+}
+
+body .zhuti .zhongbu .gonggao .left {
+    width: 25%;
+    height: 135px;
+    float: left;
+}
+
+body .zhuti .zhongbu .gonggao .left img {
+    width: 100%;
+    height: 100%;
+}
+
+body .zhuti .zhongbu .gonggao .right {
+    width: 75%;
+    height: 135px;
+    float: right;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+body .zhuti .zhongbu .gonggao .right h3 {
+    font-size: 21px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+body .zhuti .zhongbu .gonggao .right h3:hover {
+    color: skyblue;
+}
+
+body .zhuti .zhongbu .gonggao .right p {
+    width: 100%;
+    height: 46px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+body .zhuti .zhongbu .gonggao .right span {
+    color: #ccc;
+}
+
+body .zhuti .zhongbu .gonggao:hover {
+    background: #eeeeee;
+    cursor: pointer;
+}
+
+body .zhuti .yeshu {
+    width: 100%;
+    background: #fff;
+}
+
+body .zhuti .yeshu ul {
+    padding: 20px 40px 20px 220px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body .zhuti .yeshu ul li {
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+    text-align: center;
+    line-height: 24px;
+    float: left;
+    font-size: 14px;
+    font-family: "宋体";
+    background: #eeeeee;
+    font-family: 700;
+    border: 1px solid#eeeeee;
+}
+
+body .zhuti .yeshu ul li:nth-child(1) {
+    margin-left: 120px;
+}
+
+body .zhuti .yeshu ul li:hover {
+    color: #fff;
+    background: #60abea;
+}
+
+body .cebianlan {
+    float: right;
+    width: 20%;
+}
+
+body .cebianlan a {
+    display: block;
+    width: 100%;
+    height: 80px;
+    margin-left: 30px;
+}
+
+body .cebianlan a:nth-child(1) {
+    background: url('../images/imgzixun/jinglingtu.png') -14px -12px;
+    margin-bottom: 10px;
+}
+
+body .cebianlan a:nth-child(1):hover {
+    background: url('../images/imgzixun/jinglingtu.png') -14px -110px;
+}
+
+body .cebianlan a:nth-child(2) {
+    background: url('../images/imgzixun/jinglingtu.png') -14px -216px;
+    margin-bottom: 10px;
+}
+
+body .cebianlan a:nth-child(2):hover {
+    background: url('../images/imgzixun/jinglingtu.png') -14px -320px;
+}
+
+body .cebianlan a:nth-child(3) {
+    background: url('../images/imgzixun/jinglingtu.png') -14px -424px;
+    margin-bottom: 20px;
+}
+
+body .cebianlan a:nth-child(3):hover {
+    background: url('../images/imgzixun/jinglingtu.png') -14px -528px;
+}
+
+body .cebianlan a:nth-child(4) {
+    background: url('../images/imgzixun/jinglingtu.png') -14px -712px;
+}
+
+body .cebianlan a:nth-child(4):hover {
+    border: 1px solid #60abea;
+}
+
+body .cebianlan a:nth-child(5) {
+    background: url('../images/imgzixun/jinglingtu.png') -14px -806px;
+    margin-bottom: 5px;
+}
+
+body .cebianlan a:nth-child(5):hover {
+    border: 1px solid #60abea;
+}
+
+body .cebianlan a:nth-child(6) {
+    background: url('../images/imgzixun/jinglingtu.png') -14px -904px;
+}
+
+body .cebianlan a:nth-child(6):hover {
+    border: 1px solid #60abea;
+}
+
+body .fanhui {
+    position: fixed;
+    bottom: 150px;
+    right: 220px;
+    display: none;
+}
+
+body .blue {
+    position: fixed;
+    left: 0;
+    top: 200px;
+    width: 120px;
+    height: 120px;
+}
+
+body .blue .le {
+    width: 100px;
+    height: 100px;
+    float: left;
+    display: none;
+}
+
+body .blue .le img {
+    width: 100%;
+    height: 100%;
+}
+
+body .blue .ri {
+    width: 20px;
+    height: 40px;
+    margin-top: 30px;
+    float: left;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 40px;
+    font-family: "宋体";
+    cursor: pointer;
+}

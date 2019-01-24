@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.page {
+    width: 100%;
+    height: 800px;
+    background: url(../images/imgzhuce/dota-body.jpg) no-repeat top;
+    font-family: "微软雅黑";
+}
+
+input {
+    border: none;
+    outline-style: none;
+}
+
+.top {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 28px 30px 0;
+}
+
+.top .right {
+    float: right;
+}
+
+.top .right a {
+    color: #ccc;
+}
+
+.top .right span {
+    color: #fff;
+}
+
+.content {
+    width: 400px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 50px;
+    color: #fff;
+}
+
+.content p {
+    font-size: 16px;
+    color: #918f8f;
+    margin: 6px;
+}
+
+.content .register {
+    display: flex;
+    width: 100%;
+    margin: 18px 0;
+}
+
+.content .register a {
+    width: 50%;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    background-color: #2f3a45;
+    color: #fff;
+    font-size: 18px;
+    position: relative;
+}
+
+.content .register .jian {
+    background-color: #4c5f71;
+}
+
+.content .register .jian::after {
+    content: "";
+    border-bottom: transparent 10px solid;
+    border-left: transparent 10px solid;
+    border-right: transparent 10px solid;
+    border-top: #4c5f71 10px solid;
+    position: absolute;
+    bottom: -18px;
+    left: 110px;
+}
+
+.content .shouji {
+    display: none;
+}
+
+.content .ipts .active {
+    display: none;
+}
+
+.content .ipt {
+    background: rgba(0, 0, 0, 0);
+    margin: 12px 0;
+    width: 100%;
+    border: 1px solid grey;
+    display: flex;
+    padding: 5px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.content .ipt input {
+    flex: 1;
+    background: rgba(0, 0, 0, 0);
+    color: #fff;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.content .ipt input::placeholder {
+    color: #ccc;
+}
+
+.content .ipt span {
+    display: none;
+}
+
+.content .ipt .tishi {
+    position: absolute;
+    right: -120px;
+    color: #d13232;
+    font-size: 12px;
+    top: 10px;
+}
+
+.content .ipt_btn {
+    background: rgba(0, 0, 0, 0);
+}
+
+.content .ipt_btn .txt {
+    width: 260px;
+    height: 30px;
+    background: rgba(0, 0, 0, 0);
+    color: #fff;
+    border: 1px solid grey;
+    padding-left: 6px;
+}
+
+.content .ipt_btn .txt::placeholder {
+    color: #ccc;
+}
+
+.content .ipt_btn .btn1 {
+    height: 32px;
+    width: 122px;
+    background-color: #2f3a45;
+    padding: 0 8px;
+    color: #fff;
+    outline-style: none;
+    border: none;
+    border-radius: 2px;
+}
+
+.content .protocol {
+    font-size: 14px;
+    text-align: left;
+}
+
+.content .protocol a {
+    color: #ccc;
+}
+
+.content .enroll .btn {
+    width: 100%;
+    height: 33px;
+    background: #ccc;
+    color: #fff;
+    margin: 10px 0;
+}
+
+.content .has {
+    display: block;
+    border: 1px solid #ccc;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.content .mima {
+    display: flex;
+}
+
+.content .mima span {
+    display: none;
+    flex: 1;
+    color: #ccc;
+    font-size: 8px;
+    background-color: gray;
+}
+
+.content .mima .zhong {
+    margin: 0 6px;
+}

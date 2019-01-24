@@ -1,0 +1,308 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.clear {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.bigbox {
+    background: url(../images/bannerimg-guanggao/bg.jpg) no-repeat;
+    background-position: 0 50px;
+    width: 100%;
+    height: 1100px;
+    position: relative;
+}
+
+.chaoxi1 {
+    height: 170px;
+    width: 180px;
+    background: url(../images/bannerimg-guanggao/bg-chaoxi.png) -5px -5px no-repeat;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 250px;
+    animation: upanddown ease-in-out 2s infinite alternate;
+    opacity: 0.8;
+}
+
+.chaoxi1 a {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.xk {
+    height: 120px;
+    width: 120px;
+    background: url(../images/bannerimg-guanggao/bg-xvkong.png) -5px -5px no-repeat;
+    position: absolute;
+    z-index: 2;
+    left: 100px;
+    top: 80px;
+    animation: upanddown ease-in-out 2s infinite alternate;
+    opacity: 0.8;
+}
+
+.bv {
+    height: 120px;
+    width: 120px;
+    background: url(../images/bannerimg-guanggao/bg-bingnv.png) -5px -5px no-repeat;
+    position: absolute;
+    z-index: 2;
+    left: 200px;
+    top: 500px;
+    animation: upanddown ease-in-out 2s infinite alternate;
+    opacity: 0.8;
+}
+
+.fw {
+    height: 120px;
+    width: 120px;
+    background: url(../images/bannerimg-guanggao/bg-fuwang.png) -5px -5px no-repeat;
+    position: absolute;
+    z-index: 2;
+    right: 200px;
+    top: 500px;
+    animation: upanddown ease-in-out 2s infinite alternate;
+    opacity: 0.8;
+}
+
+.fh {
+    height: 120px;
+    width: 120px;
+    background: url(../images/bannerimg-guanggao/bg-fenghuang.png) -5px -5px no-repeat;
+    position: absolute;
+    z-index: 2;
+    right: 80px;
+    top: 400px;
+    animation: upanddown ease-in-out 2s infinite alternate;
+    opacity: 0.8;
+}
+
+@keyframes upanddown {
+    from {
+        transform: translateY(25px);
+    }
+    to {
+        transform: translateY(-25px);
+    }
+}
+
+.nav {
+    background: url(../images/bannerimg-guanggao/nav.png) no-repeat top;
+    height: 100px;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.nav ul {
+    width: 1250px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.nav li {
+    flex: 1;
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.nav li a {
+    color: #ccc;
+    width: 100%;
+}
+
+.nav li a:hover {
+    color: aliceblue;
+    text-shadow: 0 0 50px white;
+}
+
+.nav li:nth-child(4) {
+    padding: 0;
+}
+
+.banner {
+    margin-top: -50px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner .wraper {
+    height: 800px;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.banner .wraper a {
+    display: block;
+    height: 100%;
+}
+
+.labike {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-left: 30px;
+    top: -20px;
+    z-index: 1;
+    box-sizing: border-box;
+    width: 100%;
+    height: 780px;
+}
+
+.bannertext {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    top: 200px;
+}
+
+.buy {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 725px;
+    transform: translateX(-50%);
+    width: 180px;
+    height: 45px;
+    background: url(../images/bannerimg-guanggao/bg-btn.png) -30px -30px;
+}
+
+.buy:hover {
+    cursor: pointer;
+}
+
+.botbanner {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.botbanner ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.botbanner ul li {
+    flex: 1;
+    text-align: center;
+}
+
+.botbanner ul li .b1 {
+    background: url(../images/bannerimg-guanggao/bg-border.png) no-repeat;
+    height: 246px;
+    width: 420px;
+    padding-top: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+.botbanner ul li .b2 {
+    background: url(../images/bannerimg-guanggao/bg-border2.png) no-repeat 4px -4px;
+    height: 246px;
+    width: 400px;
+    padding-top: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+.botbanner ul li .b3 {
+    background: url(../images/bannerimg-guanggao/bg-border3.png) no-repeat 6px -1px;
+    height: 246px;
+    width: 400px;
+    padding-top: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+.botbanner ul li p {
+    display: none;
+    color: white;
+}
+
+.botbox {
+    background: black;
+}
+
+.botwraper {
+    width: 1200px;
+    height: 150px;
+    margin: 0 auto;
+    border-bottom: 2px solid#131313;
+}
+
+.botwraper ul {
+    display: flex;
+    position: relative;
+}
+
+.botwraper ul li {
+    flex: 1;
+}
+
+.botwraper ul li a {
+    margin-top: 50px;
+    display: block;
+    height: 42px;
+    width: 140px;
+    background: red;
+}
+
+.botwraper ul li .a1 {
+    background: url(../images/bannerimg-guanggao/icons.png);
+}
+
+.botwraper ul li .a2 {
+    background: url(../images/bannerimg-guanggao/icons.png) -140px 0;
+}
+
+.botwraper ul li .a3 {
+    background: url(../images/bannerimg-guanggao/icons.png) -280px 0;
+}
+
+.botwraper ul li .a4 {
+    width: 120px;
+    background: url(../images/bannerimg-guanggao/icons.png) -520px 0;
+}
+
+.botwraper ul li .a5 {
+    width: 120px;
+    background: url(../images/bannerimg-guanggao/icons.png) -650px 0;
+}
+
+.botwraper ul li .erweima {
+    position: absolute;
+    z-index: 3;
+    top: -120px;
+    left: 650px;
+    display: none;
+}
+
+.botwraper ul li .a6 {
+    width: 120px;
+    background: url(../images/bannerimg-guanggao/icons.png) -770px 0;
+}
+
+.botwraper ul li .a7 {
+    width: 90px;
+    background: url(../images/bannerimg-guanggao/icons.png) -983px 0;
+}

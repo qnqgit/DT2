@@ -1,0 +1,26 @@
+
+/* 样式初始化 */
+body,p,h1,h2,h3,h4,h5,h6,ul,dl,ol,dt,dd {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 14px;
+  font-family: "微软雅黑";
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+img input {
+  padding: 0;
+  border: 0 none;
+  outline-style: none;
+  vertical-align: bottom;
+}
+
+
+/* 版心 */
+.wraper {
+  width: 1200px;
+  margin: 0 auto;
+}

@@ -1,0 +1,55 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+dt,
+dd,
+span {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 14px;
+  font-family: "微软雅黑";
+  color: #999;
+}
+input,
+img {
+  outline-style: none;
+  border: 0 none;
+  padding: 0;
+  vertical-align: bottom;
+}
+a {
+  text-decoration: none;
+  color: #050505;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+.clearfix {
+  zoom: 1;
+}
+.w {
+  max-width: 1200px;
+  min-width: 800px;
+  margin: 0 auto;
+  display: flex;
+}
